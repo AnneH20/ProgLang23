@@ -1,0 +1,266 @@
+INFO: Using the input5.pas file for input
+enter <program>
+    -->found PROGRAM
+    -->found BMICALC
+    -->found ;
+    enter <block>
+        -->found VAR
+        -->found WEIGHT
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found HEIGHT
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found BMI
+        -->found :
+        -->found REAL
+        -->found ;
+
+        enter <compound_statement>
+            -->found BEGIN
+            enter <statement>
+                enter <assignment>
+                    -->found WEIGHT
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found HEIGHT
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found BMI
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0.0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'WHAT IS YOUR WEIGHT (IN POUNDS)'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found WEIGHT
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'WHAT IS YOUR HEIGHT (IN INCHES)'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found HEIGHT
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found BMI
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found (
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 703
+                                                exit <factor>
+                                                -->found *
+                                                enter <factor>
+                                                    -->found WEIGHT
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    -->found )
+                                exit <factor>
+                                -->found /
+                                enter <factor>
+                                    -->found (
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found HEIGHT
+                                                exit <factor>
+                                                -->found *
+                                                enter <factor>
+                                                    -->found HEIGHT
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    -->found )
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'YOUR BMI IS'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found BMI
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found ''
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <if statement>
+                    -->found IF
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found BMI
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                        -->found >
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 24.99
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                    -->found THEN
+                    enter <statement>
+                        enter <write>
+                            -->found WRITE
+                            -->found (
+                            -->found 'YOU MIGHT BE OVERWEIGHT'
+                            -->found )
+                        exit <write>
+                    exit <statement>
+                    -->found ELSE
+                    enter <statement>
+                        enter <if statement>
+                            -->found IF
+                            enter <expression>
+                                enter <simple expression>
+                                    enter <term>
+                                        enter <factor>
+                                            -->found BMI
+                                        exit <factor>
+                                    exit <term>
+                                exit <simple expression>
+                                -->found <
+                                enter <simple expression>
+                                    enter <term>
+                                        enter <factor>
+                                            -->found 18.5
+                                        exit <factor>
+                                    exit <term>
+                                exit <simple expression>
+                            exit <expression>
+                            -->found THEN
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found 'YOU MIGHT BE UNDERWEIGHT'
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found ELSE
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found 'YOU HAVE A NORMAL WEIGHT'
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                        exit <if statement>
+                    exit <statement>
+                exit <if statement>
+            exit <statement>
+            -->found END
+        exit <compound_statement>
+    exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+BMI
+HEIGHT
+WEIGHT

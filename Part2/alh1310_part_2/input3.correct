@@ -1,0 +1,530 @@
+INFO: Using the input3.pas file for input
+enter <program>
+    -->found PROGRAM
+    -->found LOTSOVAR
+    -->found ;
+    enter <block>
+        -->found VAR
+        -->found COUNT
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found MULTIPLE
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found BASE
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A1
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A2
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A3
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A4
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A5
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A6
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A7
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A8
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A9
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A10
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A11
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A12
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A13
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A14
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A15
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A16
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A17
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A18
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A19
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A20
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A21
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A22
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A23
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A24
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A25
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A26
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A27
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A28
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A29
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A30
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A31
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A32
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A33
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A34
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A35
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A36
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A37
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A38
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A39
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A40
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A41
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A42
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A43
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A44
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A45
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A46
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A47
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A48
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A49
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A50
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A51
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A52
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A53
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A54
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A55
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A56
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A57
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A58
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A59
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A60
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A61
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A62
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A63
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A64
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A65
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A66
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A67
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A68
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A69
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A70
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A71
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A72
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A73
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A74
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A75
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A76
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A77
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A78
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A79
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A80
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A81
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A82
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A83
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A84
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A85
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A86
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A87
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A88
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A89
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A90
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A91
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A92
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A93
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A94
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A95
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A96
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A97
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A98
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A99
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A100
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found A101
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+
+***ERROR:
+On line number 108, near BASE, error type 101: identifier declared twice

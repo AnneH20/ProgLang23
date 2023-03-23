@@ -1,0 +1,30 @@
+Using the input1.in file for input
+Next token: 24, lexeme: |the|
+Enter <sentence>
+  Enter <noun phrase> 1
+  Enter <adjective phrase> 1
+===> Accepted ARTICLE: |the| <===
+Next token: 21, lexeme: |little|
+===> Accepted ADJECTIVE: |little| <===
+Next token: 20, lexeme: |dog|
+  Exit <adjective phrase> 1
+===> Accepted NOUN: |dog| <===
+Next token: 22, lexeme: |ate|
+  Exit <noun phrase> 1
+  Enter <verb phrase> 1
+===> Accepted VERB: |ate| <===
+Next token: 25, lexeme: |my|
+  Exit <verb phrase> 1
+    Enter <noun phrase> 2
+    Enter <adjective phrase> 2
+===> Accepted POSSESSIVE: |my| <===
+Next token: 21, lexeme: |green|
+===> Accepted ADJECTIVE: |green| <===
+Next token: 20, lexeme: |trousers|
+    Exit <adjective phrase> 2
+===> Accepted NOUN: |trousers| <===
+Next token: 90, lexeme: |EOF|
+    Exit <noun phrase> 2
+Exit <sentence>
+
+=== MAROON! WHITE! Your parse was successful! ===

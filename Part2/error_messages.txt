@@ -1,0 +1,39 @@
+%
+%  Error messages 2-144 are the actual error messages given in the 
+%  TIPS language specification
+%
+%  Error messages 900-999 were added for our specific parser
+%
+
+"2: identifier expected"
+"3: 'PROGRAM' expected"
+"4: ')' expected"
+"5: ':' expected"
+"9: '(' expected"
+"10: error in type"     
+            variable declaration other than INTEGER or REAL
+"13: 'END' expected"
+"14: ';' expected"
+"17: 'BEGIN' expected"
+"18: error in declaration part OR 17: 'BEGIN' expected"
+            <block> does not start with VAR or BEGIN
+"51: ':=' expected"
+"52: 'THEN' expected"
+"101: identifier declared twice"
+"104: identifier not declared"
+"134: illegal type of operand(s)"
+            WRITE does not contain an identifier or string literal
+"144: illegal type of expression"
+            illegal first of expression
+
+"900: illegal type of statement"
+            illegal first of statement
+"901: illegal type of simple expression"
+            illegal first of simple expression
+"902: illegal type of term"
+            illegal first of term
+"903: illegal type of factor"
+            illegal first of factor
+"999: an error has occured"
+            any other error
+

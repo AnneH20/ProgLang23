@@ -1,0 +1,22 @@
+INFO: Using the keywords_bad.in file for input
+line: 1, lexeme: |BEGIN|, length: 5, token: TOK_BEGIN
+line: 2, lexeme: |b|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 2, lexeme: |r|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 2, lexeme: |e|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 2, lexeme: |a|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 2, lexeme: |k|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 3, lexeme: |CONTINUE|, length: 8, token: TOK_CONTINUE
+line: 4, lexeme: |DOWN|, length: 4, token: TOK_IDENT
+line: 4, lexeme: |TO|, length: 2, token: TOK_TO
+line: 5, lexeme: |ELSE|, length: 4, token: TOK_ELSE
+line: 6, lexeme: |E|, length: 1, token: TOK_IDENT
+line: 6, lexeme: |n|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 6, lexeme: |d|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+Found end of file...

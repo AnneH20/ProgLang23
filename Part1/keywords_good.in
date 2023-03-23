@@ -1,0 +1,24 @@
+BEGIN    
+BREAK    
+CONTINUE 
+DOWNTO   
+ELSE     
+END      
+FOR      
+ IF       
+  LET      
+PROGRAM  
+READ     
+THEN     
+TO       
+VAR      
+WHILE    
+WRITE    
+
+INTEGER
+REAL   
+
+INTEGER		REAL
+	LET PROGRAM	ELSE END
+
+   BREAK

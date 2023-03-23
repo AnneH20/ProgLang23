@@ -1,0 +1,179 @@
+INFO: Using the if_sample.pas file for input
+enter <program>
+    -->found PROGRAM
+    -->found CONVERT1
+    -->found ;
+    enter <block>
+        -->found VAR
+        -->found F
+        -->found :
+        -->found REAL
+        -->found ;
+
+        -->found C
+        -->found :
+        -->found REAL
+        -->found ;
+
+        enter <compound_statement>
+            -->found BEGIN
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found F
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <if statement>
+                    -->found IF
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found F
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                        -->found <
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found -
+                                    enter <factor>
+                                        -->found 100
+                                    exit <factor>
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                    -->found THEN
+                    enter <statement>
+                        enter <compound_statement>
+                            -->found BEGIN
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found 'TEMP IS TOO LOW'
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found 'IS IT REALLY THAT COLD'
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found END
+                        exit <compound_statement>
+                    exit <statement>
+                    -->found ELSE
+                    enter <statement>
+                        enter <compound_statement>
+                            -->found BEGIN
+                            enter <statement>
+                                enter <assignment>
+                                    -->found C
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found (
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found F
+                                                                exit <factor>
+                                                            exit <term>
+                                                            -->found -
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found 32.0
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                    -->found )
+                                                exit <factor>
+                                                -->found *
+                                                enter <factor>
+                                                    -->found (
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found 5.0
+                                                                exit <factor>
+                                                                -->found /
+                                                                enter <factor>
+                                                                    -->found 9.0
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                    -->found )
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found ' FAHRENHEIT= '
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found F
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found ' CELSIUS= '
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found C
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found END
+                        exit <compound_statement>
+                    exit <statement>
+                exit <if statement>
+            exit <statement>
+            -->found END
+        exit <compound_statement>
+    exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+C
+F

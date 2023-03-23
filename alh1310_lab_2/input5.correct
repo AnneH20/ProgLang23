@@ -1,0 +1,46 @@
+Using the input5.in file for input
+Next token: 25, lexeme: |his|
+Enter <sentence>
+  Enter <noun phrase> 1
+  Enter <adjective phrase> 1
+===> Accepted POSSESSIVE: |his| <===
+Next token: 21, lexeme: |furious|
+===> Accepted ADJECTIVE: |furious| <===
+Next token: 20, lexeme: |nose|
+  Exit <adjective phrase> 1
+===> Accepted NOUN: |nose| <===
+Next token: 23, lexeme: |awkwardly|
+  Exit <noun phrase> 1
+  Enter <verb phrase> 1
+===> Accepted ADVERB: |awkwardly| <===
+Next token: 23, lexeme: |sort of|
+    Enter <verb phrase> 2
+===> Accepted ADVERB: |sort of| <===
+Next token: 23, lexeme: |barely|
+      Enter <verb phrase> 3
+===> Accepted ADVERB: |barely| <===
+Next token: 23, lexeme: |incompetently|
+        Enter <verb phrase> 4
+===> Accepted ADVERB: |incompetently| <===
+Next token: 22, lexeme: |invented|
+          Enter <verb phrase> 5
+===> Accepted VERB: |invented| <===
+Next token: 25, lexeme: |my|
+          Exit <verb phrase> 5
+        Exit <verb phrase> 4
+      Exit <verb phrase> 3
+    Exit <verb phrase> 2
+  Exit <verb phrase> 1
+    Enter <noun phrase> 2
+    Enter <adjective phrase> 2
+===> Accepted POSSESSIVE: |my| <===
+Next token: 21, lexeme: |timey-wimey|
+===> Accepted ADJECTIVE: |timey-wimey| <===
+Next token: 20, lexeme: |homework|
+    Exit <adjective phrase> 2
+===> Accepted NOUN: |homework| <===
+Next token: 90, lexeme: |EOF|
+    Exit <noun phrase> 2
+Exit <sentence>
+
+=== MAROON! WHITE! Your parse was successful! ===

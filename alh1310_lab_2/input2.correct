@@ -1,0 +1,5 @@
+Using the input2.in file for input
+Next token: 22, lexeme: |ate|
+
+***ERROR near |ate|
+	<sentence> did not start with an article or possessive.

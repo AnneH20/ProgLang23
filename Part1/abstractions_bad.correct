@@ -1,0 +1,29 @@
+INFO: Using the abstractions_bad.in file for input
+line: 3, lexeme: |'THIS HAS A & AND lower case LETTERS'|, length: 37, token: TOK_STRINGLIT
+line: 4, lexeme: |LONGNAME|, length: 8, token: TOK_IDENT
+line: 4, lexeme: |MID|, length: 3, token: TOK_IDENT
+line: 4, lexeme: |D1234567|, length: 8, token: TOK_IDENT
+line: 5, lexeme: |TR1PO|, length: 5, token: TOK_IDENT
+line: 5, lexeme: |^|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 5, lexeme: |ER|, length: 2, token: TOK_IDENT
+line: 6, lexeme: |'|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 6, lexeme: |STRING|, length: 6, token: TOK_IDENT
+line: 6, lexeme: |HAS|, length: 3, token: TOK_IDENT
+line: 6, lexeme: |A|, length: 1, token: TOK_IDENT
+line: 7, lexeme: |NEWLINE|, length: 7, token: TOK_IDENT
+line: 7, lexeme: |'|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 9, lexeme: |12|, length: 2, token: TOK_INTLIT
+line: 9, lexeme: |.|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 9, lexeme: |21|, length: 2, token: TOK_INTLIT
+line: 9, lexeme: |.|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 9, lexeme: |14|, length: 2, token: TOK_INTLIT
+line: 9, lexeme: |0.25|, length: 4, token: TOK_FLOATLIT
+line: 9, lexeme: |1.0|, length: 3, token: TOK_FLOATLIT
+line: 10, lexeme: |'012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789'|, length: 92, token: TOK_UNKNOWN
+   ERROR: unknown token
+Found end of file...

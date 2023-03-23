@@ -1,0 +1,25 @@
+INFO: Using the operators_good.in file for input
+line: 1, lexeme: |+|, length: 1, token: TOK_PLUS
+line: 2, lexeme: |-|, length: 1, token: TOK_MINUS
+line: 3, lexeme: |*|, length: 1, token: TOK_MULTIPLY
+line: 4, lexeme: |/|, length: 1, token: TOK_DIVIDE
+line: 5, lexeme: |:=|, length: 2, token: TOK_ASSIGN
+line: 6, lexeme: |=|, length: 1, token: TOK_EQUALTO
+line: 7, lexeme: |<|, length: 1, token: TOK_LESSTHAN
+line: 8, lexeme: |>|, length: 1, token: TOK_GREATERTHAN
+line: 9, lexeme: |<>|, length: 2, token: TOK_NOTEQUALTO
+line: 10, lexeme: |MOD|, length: 3, token: TOK_MOD
+line: 11, lexeme: |NOT|, length: 3, token: TOK_NOT
+line: 12, lexeme: |OR|, length: 2, token: TOK_OR
+line: 13, lexeme: |AND|, length: 3, token: TOK_AND
+line: 15, lexeme: |AND|, length: 3, token: TOK_AND
+line: 15, lexeme: |OR|, length: 2, token: TOK_OR
+line: 16, lexeme: |/|, length: 1, token: TOK_DIVIDE
+line: 16, lexeme: |/|, length: 1, token: TOK_DIVIDE
+line: 16, lexeme: |+|, length: 1, token: TOK_PLUS
+line: 16, lexeme: |-|, length: 1, token: TOK_MINUS
+line: 16, lexeme: |*|, length: 1, token: TOK_MULTIPLY
+line: 17, lexeme: |<|, length: 1, token: TOK_LESSTHAN
+line: 17, lexeme: |>|, length: 1, token: TOK_GREATERTHAN
+line: 17, lexeme: |<>|, length: 2, token: TOK_NOTEQUALTO
+Found end of file...

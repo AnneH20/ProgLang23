@@ -1,0 +1,53 @@
+INFO: Using the unknown2.in file for input
+line: 1, lexeme: |PROGRAM|, length: 7, token: TOK_PROGRAM
+line: 1, lexeme: |EXAMPLE2|, length: 8, token: TOK_IDENT
+line: 1, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 2, lexeme: |VAR|, length: 3, token: TOK_VAR
+line: 3, lexeme: |HEIGHT|, length: 6, token: TOK_IDENT
+line: 3, lexeme: |:|, length: 1, token: TOK_COLON
+line: 3, lexeme: |INTEGER|, length: 7, token: TOK_INTEGER
+line: 3, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 4, lexeme: |WIDTH|, length: 5, token: TOK_IDENT
+line: 4, lexeme: |:|, length: 1, token: TOK_COLON
+line: 4, lexeme: |INTEGER|, length: 7, token: TOK_INTEGER
+line: 4, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 5, lexeme: |AREA|, length: 4, token: TOK_IDENT
+line: 5, lexeme: |:|, length: 1, token: TOK_COLON
+line: 5, lexeme: |INTEGER|, length: 7, token: TOK_INTEGER
+line: 5, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 6, lexeme: |BEGIN|, length: 5, token: TOK_BEGIN
+line: 7, lexeme: |HEIGHT|, length: 6, token: TOK_IDENT
+line: 7, lexeme: |:=|, length: 2, token: TOK_ASSIGN
+line: 7, lexeme: |5|, length: 1, token: TOK_INTLIT
+line: 7, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 8, lexeme: |WIDTH|, length: 5, token: TOK_IDENT
+line: 8, lexeme: |:=|, length: 2, token: TOK_ASSIGN
+line: 8, lexeme: |4|, length: 1, token: TOK_INTLIT
+line: 8, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 9, lexeme: |AREA|, length: 4, token: TOK_IDENT
+line: 9, lexeme: |:=|, length: 2, token: TOK_ASSIGN
+line: 9, lexeme: |HEIGHT|, length: 6, token: TOK_IDENT
+line: 9, lexeme: |*|, length: 1, token: TOK_MULTIPLY
+line: 9, lexeme: |WIDTH|, length: 5, token: TOK_IDENT
+line: 9, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 10, lexeme: |WRITE|, length: 5, token: TOK_WRITE
+line: 10, lexeme: |(|, length: 1, token: TOK_OPENPAREN
+line: 10, lexeme: |AREA|, length: 4, token: TOK_IDENT
+line: 10, lexeme: |)|, length: 1, token: TOK_CLOSEPAREN
+line: 10, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 11, lexeme: |IF|, length: 2, token: TOK_IF
+line: 11, lexeme: |AREA|, length: 4, token: TOK_IDENT
+line: 11, lexeme: |>|, length: 1, token: TOK_GREATERTHAN
+line: 11, lexeme: |1000|, length: 4, token: TOK_INTLIT
+line: 11, lexeme: |THEN|, length: 4, token: TOK_THEN
+line: 12, lexeme: |WRITE|, length: 5, token: TOK_WRITE
+line: 12, lexeme: |(|, length: 1, token: TOK_OPENPAREN
+line: 12, lexeme: |'THAT IS LARGE'|, length: 15, token: TOK_STRINGLIT
+line: 12, lexeme: |)|, length: 1, token: TOK_CLOSEPAREN
+line: 13, lexeme: |ELSE|, length: 4, token: TOK_ELSE
+line: 14, lexeme: |WRITE|, length: 5, token: TOK_WRITE
+line: 14, lexeme: |(|, length: 1, token: TOK_OPENPAREN
+line: 14, lexeme: |'THAT IS SMALL'|, length: 15, token: TOK_STRINGLIT
+line: 14, lexeme: |)|, length: 1, token: TOK_CLOSEPAREN
+line: 15, lexeme: |END|, length: 3, token: TOK_END
+Found end of file...

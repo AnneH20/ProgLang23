@@ -1,0 +1,48 @@
+INFO: Using the another.in file for input
+line: 1  lexeme: |2020/02/01|  length: 10  token: 10
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |2020/02/01|  length: 10  token: 10
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |2020/04/18|  length: 10  token: 10
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |2020/02/01|  length: 10  token: 10
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Female|  length: 6  token: 51
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |0 - 9 Years|  length: 11  token: 60
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Unknown|  length: 7  token: 32
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Missing|  length: 7  token: 33
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Missing|  length: 7  token: 33
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Missing|  length: 7  token: 33
+line: 1  lexeme: |,|  length: 1  token: 20
+line: 1  lexeme: |Missing|  length: 7  token: 33
+line: 2  lexeme: |2020/02/01|  length: 10  token: 10
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |2020/11/12|  length: 10  token: 10
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |2020/02/01|  length: 10  token: 10
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |Laboratory-confirmed case|  length: 25  token: 40
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |female|  length: 6  token: 51
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |10 - 19 Years|  length: 13  token: 61
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |"White, Non-Hispanic"|  length: 21  token: 75
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |No|  length: 2  token: 31
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |Missing|  length: 7  token: 33
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |No|  length: 2  token: 31
+line: 2  lexeme: |,|  length: 1  token: 20
+line: 2  lexeme: |Missing|  length: 7  token: 33
+line: 3  lexeme: |2|  length: 1  token: 99
+ERROR: unknown token

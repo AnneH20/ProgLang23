@@ -1,0 +1,35 @@
+Data: (integer: 14) 
+Data: (float: 99.99) 
+Data: (string: testing) 
+
+Deleting DataNode:StringNode:testing
+Deleting DataNode:FloatNode:99.99
+Deleting DataNode:IntegerNode:14
+
+Size of the vector: 4
+Data: (string: first) 
+Data: (integer: 2) 
+Data: (float: 3.14) 
+Data: (string: fourth) 
+
+Size of the vector: 8
+Data: (string: first) 
+Data: (integer: 2) 
+Data: (float: 3.14) 
+Data: (string: fourth) 
+Data: (integer: 5) 
+Data: (float: 6.28) 
+Data: (string: seventh) 
+Data: (string: eighth) 
+
+Deleting DataNode:StringNode:first
+Deleting DataNode:IntegerNode:2
+Deleting DataNode:FloatNode:3.14
+Deleting DataNode:StringNode:fourth
+Deleting DataNode:IntegerNode:5
+Deleting DataNode:FloatNode:6.28
+Deleting DataNode:StringNode:seventh
+Deleting DataNode:StringNode:eighth
+
+Size of the vector: 8
+Size of the vector: 0

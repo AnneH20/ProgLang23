@@ -1,0 +1,27 @@
+INFO: Using the keywords_good.in file for input
+line: 1, lexeme: |BEGIN|, length: 5, token: TOK_BEGIN
+line: 2, lexeme: |BREAK|, length: 5, token: TOK_BREAK
+line: 3, lexeme: |CONTINUE|, length: 8, token: TOK_CONTINUE
+line: 4, lexeme: |DOWNTO|, length: 6, token: TOK_DOWNTO
+line: 5, lexeme: |ELSE|, length: 4, token: TOK_ELSE
+line: 6, lexeme: |END|, length: 3, token: TOK_END
+line: 7, lexeme: |FOR|, length: 3, token: TOK_FOR
+line: 8, lexeme: |IF|, length: 2, token: TOK_IF
+line: 9, lexeme: |LET|, length: 3, token: TOK_LET
+line: 10, lexeme: |PROGRAM|, length: 7, token: TOK_PROGRAM
+line: 11, lexeme: |READ|, length: 4, token: TOK_READ
+line: 12, lexeme: |THEN|, length: 4, token: TOK_THEN
+line: 13, lexeme: |TO|, length: 2, token: TOK_TO
+line: 14, lexeme: |VAR|, length: 3, token: TOK_VAR
+line: 15, lexeme: |WHILE|, length: 5, token: TOK_WHILE
+line: 16, lexeme: |WRITE|, length: 5, token: TOK_WRITE
+line: 18, lexeme: |INTEGER|, length: 7, token: TOK_INTEGER
+line: 19, lexeme: |REAL|, length: 4, token: TOK_REAL
+line: 21, lexeme: |INTEGER|, length: 7, token: TOK_INTEGER
+line: 21, lexeme: |REAL|, length: 4, token: TOK_REAL
+line: 22, lexeme: |LET|, length: 3, token: TOK_LET
+line: 22, lexeme: |PROGRAM|, length: 7, token: TOK_PROGRAM
+line: 22, lexeme: |ELSE|, length: 4, token: TOK_ELSE
+line: 22, lexeme: |END|, length: 3, token: TOK_END
+line: 24, lexeme: |BREAK|, length: 5, token: TOK_BREAK
+Found end of file...

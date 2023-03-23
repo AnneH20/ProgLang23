@@ -1,0 +1,38 @@
+INFO: Using the input1.in file for input
+line: 1, lexeme: |AB123|, length: 5, token: TOK_IDENT
+line: 1, lexeme: |(|, length: 1, token: TOK_OPENPAREN
+line: 1, lexeme: |'HELLO WORLD'|, length: 13, token: TOK_STRINGLIT
+line: 1, lexeme: |)|, length: 1, token: TOK_CLOSEPAREN
+line: 1, lexeme: |#|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 1, lexeme: |321|, length: 3, token: TOK_INTLIT
+line: 1, lexeme: |AB|, length: 2, token: TOK_IDENT
+line: 2, lexeme: |FOREVER|, length: 7, token: TOK_IDENT
+line: 2, lexeme: |IF|, length: 2, token: TOK_IF
+line: 2, lexeme: |INTEGER|, length: 7, token: TOK_INTEGER
+line: 2, lexeme: |FOR|, length: 3, token: TOK_FOR
+line: 2, lexeme: |+|, length: 1, token: TOK_PLUS
+line: 2, lexeme: |-|, length: 1, token: TOK_MINUS
+line: 2, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 3, lexeme: |ELSE|, length: 4, token: TOK_ELSE
+line: 3, lexeme: |FOR|, length: 3, token: TOK_FOR
+line: 3, lexeme: |PRINT|, length: 5, token: TOK_IDENT
+line: 3, lexeme: |WHILE|, length: 5, token: TOK_WHILE
+line: 4, lexeme: |REAL|, length: 4, token: TOK_REAL
+line: 4, lexeme: |12.34|, length: 5, token: TOK_FLOATLIT
+line: 4, lexeme: |INT|, length: 3, token: TOK_IDENT
+line: 4, lexeme: |234|, length: 3, token: TOK_INTLIT
+line: 5, lexeme: |STRING|, length: 6, token: TOK_IDENT
+line: 5, lexeme: |VAR|, length: 3, token: TOK_VAR
+line: 5, lexeme: |OR|, length: 2, token: TOK_OR
+line: 5, lexeme: |:|, length: 1, token: TOK_COLON
+line: 6, lexeme: |'I AM A STRING, I AM ALSO A STRING'|, length: 35, token: TOK_STRINGLIT
+line: 7, lexeme: |''|, length: 2, token: TOK_STRINGLIT
+line: 7, lexeme: |12|, length: 2, token: TOK_INTLIT
+line: 7, lexeme: |.|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 7, lexeme: |34|, length: 2, token: TOK_INTLIT
+line: 7, lexeme: |AREALLYLONGNAME|, length: 15, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 7, lexeme: |IFFINESS|, length: 8, token: TOK_IDENT
+Found end of file...

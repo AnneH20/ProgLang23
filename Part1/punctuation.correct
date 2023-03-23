@@ -1,0 +1,26 @@
+INFO: Using the punctuation.in file for input
+line: 1, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 2, lexeme: |:|, length: 1, token: TOK_COLON
+line: 3, lexeme: |(|, length: 1, token: TOK_OPENPAREN
+line: 4, lexeme: |)|, length: 1, token: TOK_CLOSEPAREN
+line: 5, lexeme: |{|, length: 1, token: TOK_OPENBRACE
+line: 6, lexeme: |}|, length: 1, token: TOK_CLOSEBRACE
+line: 8, lexeme: |}|, length: 1, token: TOK_CLOSEBRACE
+line: 8, lexeme: |{|, length: 1, token: TOK_OPENBRACE
+line: 8, lexeme: |)|, length: 1, token: TOK_CLOSEPAREN
+line: 8, lexeme: |(|, length: 1, token: TOK_OPENPAREN
+line: 8, lexeme: |:|, length: 1, token: TOK_COLON
+line: 8, lexeme: |:|, length: 1, token: TOK_COLON
+line: 8, lexeme: |:|, length: 1, token: TOK_COLON
+line: 8, lexeme: |:|, length: 1, token: TOK_COLON
+line: 8, lexeme: |:|, length: 1, token: TOK_COLON
+line: 8, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 8, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 8, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 8, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 8, lexeme: |;|, length: 1, token: TOK_SEMICOLON
+line: 8, lexeme: |(|, length: 1, token: TOK_OPENPAREN
+line: 8, lexeme: |)|, length: 1, token: TOK_CLOSEPAREN
+line: 9, lexeme: |{|, length: 1, token: TOK_OPENBRACE
+line: 9, lexeme: |}|, length: 1, token: TOK_CLOSEBRACE
+Found end of file...

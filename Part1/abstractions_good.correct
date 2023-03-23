@@ -1,0 +1,31 @@
+INFO: Using the abstractions_good.in file for input
+line: 1, lexeme: |A|, length: 1, token: TOK_IDENT
+line: 1, lexeme: |AB|, length: 2, token: TOK_IDENT
+line: 1, lexeme: |ABC|, length: 3, token: TOK_IDENT
+line: 2, lexeme: |LONGNAME|, length: 8, token: TOK_IDENT
+line: 2, lexeme: |MID|, length: 3, token: TOK_IDENT
+line: 2, lexeme: |D1234567|, length: 8, token: TOK_IDENT
+line: 3, lexeme: |TR1P|, length: 4, token: TOK_IDENT
+line: 3, lexeme: |TR33|, length: 4, token: TOK_IDENT
+line: 5, lexeme: |12|, length: 2, token: TOK_INTLIT
+line: 5, lexeme: |21|, length: 2, token: TOK_INTLIT
+line: 5, lexeme: |12398481312|, length: 11, token: TOK_INTLIT
+line: 5, lexeme: |984028437236236|, length: 15, token: TOK_INTLIT
+line: 5, lexeme: |0|, length: 1, token: TOK_INTLIT
+line: 5, lexeme: |1|, length: 1, token: TOK_INTLIT
+line: 5, lexeme: |2|, length: 1, token: TOK_INTLIT
+line: 7, lexeme: |12.21|, length: 5, token: TOK_FLOATLIT
+line: 7, lexeme: |3.14|, length: 4, token: TOK_FLOATLIT
+line: 7, lexeme: |0.25|, length: 4, token: TOK_FLOATLIT
+line: 7, lexeme: |1.0|, length: 3, token: TOK_FLOATLIT
+line: 8, lexeme: |4.13|, length: 4, token: TOK_FLOATLIT
+line: 8, lexeme: |1234832943985325.912839182391823714129|, length: 38, token: TOK_FLOATLIT
+line: 10, lexeme: |''|, length: 2, token: TOK_STRINGLIT
+line: 10, lexeme: |'  '|, length: 4, token: TOK_STRINGLIT
+line: 10, lexeme: |'    '|, length: 6, token: TOK_STRINGLIT
+line: 10, lexeme: |' '|, length: 3, token: TOK_STRINGLIT
+line: 12, lexeme: |'STRING'|, length: 8, token: TOK_STRINGLIT
+line: 12, lexeme: |'STRING=AB+CD   '|, length: 17, token: TOK_STRINGLIT
+line: 14, lexeme: |'THIS IS A    STRING'|, length: 21, token: TOK_STRINGLIT
+line: 16, lexeme: |'0123456789012345678901234567890123456789012345678901234567890123456789'|, length: 72, token: TOK_STRINGLIT
+Found end of file...

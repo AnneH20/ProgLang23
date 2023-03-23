@@ -1,0 +1,25 @@
+INFO: Using the operators_bad.in file for input
+line: 1, lexeme: |+|, length: 1, token: TOK_PLUS
+line: 2, lexeme: |-|, length: 1, token: TOK_MINUS
+line: 5, lexeme: |%|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 6, lexeme: |&|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 8, lexeme: |!|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 8, lexeme: |=|, length: 1, token: TOK_EQUALTO
+line: 9, lexeme: |m|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 9, lexeme: |o|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 9, lexeme: |d|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 10, lexeme: |!|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 11, lexeme: |n|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 11, lexeme: |o|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+line: 11, lexeme: |t|, length: 1, token: TOK_UNKNOWN
+   ERROR: unknown token
+Found end of file...

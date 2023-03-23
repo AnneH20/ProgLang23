@@ -1,0 +1,24 @@
+Using the input6.in file for input
+Next token: 25, lexeme: |your|
+Enter <sentence>
+  Enter <noun phrase> 1
+  Enter <adjective phrase> 1
+===> Accepted POSSESSIVE: |your| <===
+Next token: 21, lexeme: |friendly|
+===> Accepted ADJECTIVE: |friendly| <===
+Next token: 20, lexeme: |dog|
+  Exit <adjective phrase> 1
+===> Accepted NOUN: |dog| <===
+Next token: 23, lexeme: |totally|
+  Exit <noun phrase> 1
+  Enter <verb phrase> 1
+===> Accepted ADVERB: |totally| <===
+Next token: 22, lexeme: |mangled|
+    Enter <verb phrase> 2
+===> Accepted VERB: |mangled| <===
+Next token: 20, lexeme: |homework|
+    Exit <verb phrase> 2
+  Exit <verb phrase> 1
+
+***ERROR near |homework|
+	<noun phrase> did not start with an article or possessive.

@@ -1,0 +1,309 @@
+INFO: Using the input4.pas file for input
+enter <program>
+    -->found PROGRAM
+    -->found LOOPEX2
+    -->found ;
+    enter <block>
+        -->found VAR
+        -->found COL
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found ROW
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found PRODUCT
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        -->found MAXIMUM
+        -->found :
+        -->found INTEGER
+        -->found ;
+
+        enter <compound_statement>
+            -->found BEGIN
+            enter <statement>
+                enter <assignment>
+                    -->found COL
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <assignment>
+                    -->found ROW
+                    -->found :=
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found 0
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                exit <assignment>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'ENTER THE MAXIMUM INTEGER'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'IT MUST BE GREATER THAN 0'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <read>
+                    -->found READ
+                    -->found (
+                    -->found MAXIMUM
+                    -->found )
+                exit <read>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'MULTIPLICATION TABLE'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <while statement>
+                    -->found WHILE
+                    enter <expression>
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found ROW
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                        -->found <
+                        enter <simple expression>
+                            enter <term>
+                                enter <factor>
+                                    -->found MAXIMUM
+                                exit <factor>
+                            exit <term>
+                        exit <simple expression>
+                    exit <expression>
+                    enter <statement>
+                        enter <compound_statement>
+                            -->found BEGIN
+                            enter <statement>
+                                enter <write>
+                                    -->found WRITE
+                                    -->found (
+                                    -->found 'STARTING A NEW ROW'
+                                    -->found )
+                                exit <write>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <assignment>
+                                    -->found COL
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 0
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <while statement>
+                                    -->found WHILE
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found COL
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                        -->found <
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found MAXIMUM
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                    enter <statement>
+                                        enter <compound_statement>
+                                            -->found BEGIN
+                                            enter <statement>
+                                                enter <assignment>
+                                                    -->found PRODUCT
+                                                    -->found :=
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found COL
+                                                                exit <factor>
+                                                                -->found *
+                                                                enter <factor>
+                                                                    -->found ROW
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                exit <assignment>
+                                            exit <statement>
+                                            -->found ;
+                                            enter <statement>
+                                                enter <if statement>
+                                                    -->found IF
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found PRODUCT
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                        -->found <
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found 100
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                    -->found THEN
+                                                    enter <statement>
+                                                        enter <write>
+                                                            -->found WRITE
+                                                            -->found (
+                                                            -->found PRODUCT
+                                                            -->found )
+                                                        exit <write>
+                                                    exit <statement>
+                                                    -->found ELSE
+                                                    enter <statement>
+                                                        enter <compound_statement>
+                                                            -->found BEGIN
+                                                            enter <statement>
+                                                                enter <write>
+                                                                    -->found WRITE
+                                                                    -->found (
+                                                                    -->found 'THAT IS A BIG NUMBER'
+                                                                    -->found )
+                                                                exit <write>
+                                                            exit <statement>
+                                                            -->found END
+                                                        exit <compound_statement>
+                                                    exit <statement>
+                                                exit <if statement>
+                                            exit <statement>
+                                            -->found ;
+                                            enter <statement>
+                                                enter <assignment>
+                                                    -->found COL
+                                                    -->found :=
+                                                    enter <expression>
+                                                        enter <simple expression>
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found COL
+                                                                exit <factor>
+                                                            exit <term>
+                                                            -->found +
+                                                            enter <term>
+                                                                enter <factor>
+                                                                    -->found 1
+                                                                exit <factor>
+                                                            exit <term>
+                                                        exit <simple expression>
+                                                    exit <expression>
+                                                exit <assignment>
+                                            exit <statement>
+                                            -->found END
+                                        exit <compound_statement>
+                                    exit <statement>
+                                exit <while statement>
+                            exit <statement>
+                            -->found ;
+                            enter <statement>
+                                enter <assignment>
+                                    -->found ROW
+                                    -->found :=
+                                    enter <expression>
+                                        enter <simple expression>
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found ROW
+                                                exit <factor>
+                                            exit <term>
+                                            -->found +
+                                            enter <term>
+                                                enter <factor>
+                                                    -->found 1
+                                                exit <factor>
+                                            exit <term>
+                                        exit <simple expression>
+                                    exit <expression>
+                                exit <assignment>
+                            exit <statement>
+                            -->found END
+                        exit <compound_statement>
+                    exit <statement>
+                exit <while statement>
+            exit <statement>
+            -->found ;
+            enter <statement>
+                enter <write>
+                    -->found WRITE
+                    -->found (
+                    -->found 'THE END'
+                    -->found )
+                exit <write>
+            exit <statement>
+            -->found END
+        exit <compound_statement>
+    exit <block>
+exit <program>
+
+=== GO BULLDOGS! Your parse was successful! ===
+
+User Defined Symbols:
+COL
+MAXIMUM
+PRODUCT
+ROW
